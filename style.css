@@ -44,6 +44,7 @@ body {
 
   .responsive-image-one {
     width: 300px;
+    height: auto;
     object-fit: contain;
   }
 
@@ -214,6 +215,7 @@ body {
 
     .responsive-image-two {
       width: 100%;
+      height: auto;
       object-fit: contain;
     }
   }
@@ -305,6 +307,7 @@ body {
 
     picture > .responsive-image-two {
       width: 420px;
+      height: auto;
       transform: scale(80%);
     }
   }
