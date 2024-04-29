@@ -42,9 +42,9 @@ body {
     position: relative;
   }
 
-  picture > .responsive-image-one {
+  .responsive-image-one {
     max-width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .picture-container {
@@ -214,6 +214,7 @@ body {
 
     .responsive-image-two {
       width: 100%;
+      object-fit: contain;
     }
   }
 }
