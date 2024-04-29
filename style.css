@@ -38,11 +38,13 @@ body {
   }
 
   picture {
+    width: 100%;
     position: relative;
   }
 
   picture > img {
     max-width: 100%;
+    object-fit: cover;
   }
 
   .picture-container {
@@ -165,7 +167,7 @@ body {
       align-items: center;
     }
     
-    svg {
+    img {
       width: 32px;
     }
   }
@@ -208,6 +210,7 @@ body {
   picture {
     display: flex;
     align-items: flex-end;
+    width: 100vw;
 
     img {
       width: 100%;
@@ -273,7 +276,7 @@ body {
 
   .contact-me {
     display: grid;
-    grid-template-columns: 5fr 4fr;
+    grid-template-columns: 5fr 6fr;
 
     .contact-details {
       max-width: 400px;
@@ -293,6 +296,10 @@ body {
       .icons {
         margin-top: 48px;
       }
+    }
+
+    picture {
+      width: 420px;
     }
 
     picture > img {
