@@ -42,7 +42,7 @@ body {
     position: relative;
   }
 
-  picture > img {
+  picture > .responsive-image-one {
     max-width: 100%;
     object-fit: cover;
   }
@@ -212,7 +212,7 @@ body {
     align-items: flex-end;
     width: 100vw;
 
-    img {
+    .responsive-image-two {
       width: 100%;
     }
   }
@@ -302,7 +302,7 @@ body {
       width: 420px;
     }
 
-    picture > img {
+    picture > .responsive-image-two {
       width: 420px;
       transform: scale(80%);
     }
