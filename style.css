@@ -252,6 +252,7 @@ body {
   }
 
   .picture-container > .name {
+    max-width: 400px;
     font-size: min(calc(-1.2rem + 10vw), 4.3rem);
     text-wrap: nowrap;
     position: absolute;
