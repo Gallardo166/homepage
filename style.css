@@ -361,4 +361,12 @@ body {
   .projects {
     margin-top: 140px;
   }
+
+  .contact-me {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-me > picture {
+    width: 70%;
+  }
 }
