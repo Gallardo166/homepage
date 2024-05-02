@@ -23,4 +23,4 @@ Concepts reinforced:
 Credits:
 
 1. Portrait of caw calf by [Hernan Sicha](https://www.pexels.com/@heis/)
-2. Close up of caw head by [Adi K](https://www.pexels.com/@adi-k-182036/)
+2. Close up of cow head by [Adi K](https://www.pexels.com/@adi-k-182036/)
